@@ -1,0 +1,97 @@
+#guideline{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    transform: translat3d(0px, 0px, 0px);
+    margin-left: -150px;
+}
+
+#guideline .turn-page {
+    width: 300px;
+    height: 300px;
+}
+
+#htmlbackground{
+    background: url("https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44f4aebbd1e1371d5bf7dc22016c5d29&w=1000&q=80") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+    color: white;
+    margin: auto;
+}
+
+#guidecontainer{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 300px;
+}
+
+#num{
+    border: 0;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+    transition: all 0.5s;
+}
+
+#viewport {
+  color: white;
+  /*float: left;*/
+  line-height: 3em;
+  text-align: right;
+  /*text-overflow: ellipsis;*/
+  /*overflow: hidden;*/
+  width: 150px;
+  height: 3em;
+}
+
+#op, #clear, #equals{
+    border: 0;
+    background: black;
+    color: white;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+    transition: all 0.5s;
+}
+
+#numbs{
+    width:150px;
+    height:150px;
+}
+
+#calculator{
+    margin: auto;
+    width: 190px;
+    height: 250px;
+}
+
+
+.a {
+    width: 50px;
+    height:50px;
+    background-color:red;
+    position:relative;
+}
+
+.smallgame{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+}
