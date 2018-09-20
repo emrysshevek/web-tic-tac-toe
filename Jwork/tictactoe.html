@@ -12,16 +12,27 @@
     <body>
         <div id= "guidecontainer">
             <div id="guideline">
-            	<div> <img src="https://glhf-apparel.com/wp-content/uploads/2015/02/glhf-preview.png" width="300px" height="300px"></div>
-            	<div> <img src= "https://www.ebuyer.com/blog/wp-content/uploads/2014/07/buttons-on-a-calculator-header1.jpg" width="300px" height="300px"></div>
-            	<div> <img src= "http://toytheater.com/wp-content/uploads/tic_tac_toe.gif" width="300px" height="300px"></div>
+            	<div> <img src="https://glhf-apparel.com/wp-content/uploads/2015/02/glhf-preview.png" width="200px" height="200px"></div>
+            	<div> <img src= "https://www.ebuyer.com/blog/wp-content/uploads/2014/07/buttons-on-a-calculator-header1.jpg" width="200px" height="200px"></div>
+            	<div> <img src= "http://toytheater.com/wp-content/uploads/tic_tac_toe.gif" width="200px" height="200px"></div>
             </div>
         </div>
         
         <div></br></div>
         
-        <div class = 'smallgame'>
-            <div class='a'></div>
+        <div class = 'smallgame' onclick = "missed()">
+            <div class='a' id = "a" onclick = "gotit()"> <img src= "https://www.getdigital.eu/web/getdigital/gfx/products/__generated__resized/380x380/Aufkleber_Trollface.jpg" id="trollface"></div>
+        </div>
+        
+        <div class ='selection'> 
+            <text>Choose your level: <text>
+            <select id = "level" onchange ='getlv()'>
+                <option value="">none
+                <option value="easy">easy
+                <option value="normal">normal
+                <option value="hard">hard
+                <option value="brutal">brutal
+            </select>
         </div>
         
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
