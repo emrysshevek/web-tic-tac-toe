@@ -1,14 +1,14 @@
 #guideline{
     position: relative;
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     transform: translat3d(0px, 0px, 0px);
-    margin-left: -150px;
+    margin-left: -100px;
 }
 
 #guideline .turn-page {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 #htmlbackground{
@@ -20,78 +20,62 @@
 }
 
 header{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
     color: white;
-    margin: auto;
+    text-align: center;
+    background-color: gray;
+    width: 380px;
+    margin-bottom: 40px;
 }
 
 #guidecontainer{
     position: relative;
     margin: auto;
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
 }
-
-#num{
-    border: 0;
-    background: orange;
-    color: white;
-    cursor: pointer;
-    float: left;
-    font: inherit;
-    margin: 0.25em;
-    width: 2em;
-    height: 2em;
-    transition: all 0.5s;
-}
-
-#viewport {
-  color: white;
-  /*float: left;*/
-  line-height: 3em;
-  text-align: right;
-  /*text-overflow: ellipsis;*/
-  /*overflow: hidden;*/
-  width: 150px;
-  height: 3em;
-}
-
-#op, #clear, #equals{
-    border: 0;
-    background: black;
-    color: white;
-    cursor: pointer;
-    float: left;
-    font: inherit;
-    margin: 0.25em;
-    width: 2em;
-    height: 2em;
-    transition: all 0.5s;
-}
-
-#numbs{
-    width:150px;
-    height:150px;
-}
-
-#calculator{
-    margin: auto;
-    width: 190px;
-    height: 250px;
-}
-
 
 .a {
     width: 50px;
     height:50px;
-    background-color:red;
+    background-color:white;
     position:relative;
+    left: 225px;
+    top: 125px;
+}
+
+#trollface{
+    width:100%;
+    height: 100%;
 }
 
 .smallgame{
     margin-left: 25%;
     margin-right: 25%;
-    width: 50%;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     background-color: white;
+    margin: auto;
+}
+
+text{
+    color: white;
+}
+
+datalist{
+    margin: auto;
+}
+
+.selection{
+    margin: auto;
+    width: 14%;
+    margin-left: 43%;
+    margin-right: 43%;
+    
+}
+.level{
+    color: white;
     margin: auto;
 }
