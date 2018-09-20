@@ -1,46 +1,15 @@
-#guideline{
-    position: relative;
-    width: 400px;
-    height: 200px;
-    transform: translat3d(0px, 0px, 0px);
-    margin-left: -100px;
-}
-
-#guideline .turn-page {
-    width: 200px;
-    height: 200px;
-}
-
-#htmlbackground{
-    background: url("https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44f4aebbd1e1371d5bf7dc22016c5d29&w=1000&q=80") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-header{
-    margin-top: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    background-color: gray;
-    width: 380px;
-    margin-bottom: 40px;
-}
-
-#guidecontainer{
-    position: relative;
-    margin: auto;
-    width: 400px;
-    height: 200px;
-}
+/*#htmlbackground{*/
+/*    background: url("https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44f4aebbd1e1371d5bf7dc22016c5d29&w=1000&q=80") no-repeat center center fixed;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
 
 .a {
     width: 50px;
     height:50px;
-    background-color:white;
+    background-color:transparent;
     position:relative;
     left: 225px;
     top: 125px;
@@ -56,16 +25,12 @@ header{
     margin-right: 25%;
     width: 500px;
     height: 300px;
-    background-color: white;
+    background-color: gray;
     margin: auto;
 }
 
 text{
-    color: white;
-}
-
-datalist{
-    margin: auto;
+    color: black;
 }
 
 .selection{
@@ -76,6 +41,6 @@ datalist{
     
 }
 .level{
-    color: white;
+    color: black;
     margin: auto;
 }
