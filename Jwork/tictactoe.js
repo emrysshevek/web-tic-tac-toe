@@ -1,6 +1,6 @@
-$("#guideline").turn({
-		autoCenter: true
-});
+// $("#guideline").turn({
+// 		autoCenter: true
+// });
 
 
 var velocity = 1.0;
