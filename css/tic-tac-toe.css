@@ -6,6 +6,10 @@
 /*    background-size: cover;*/
 /*}*/
 
+body {
+    text-align: center;
+}
+
 #b0 {
     /*margin-left: 25%;*/
     /*margin-right: 25%;*/
@@ -22,5 +26,11 @@ td {
     height: auto;
     background-repeat:no-repeat;
     background-size:100% 100%;
+}
+
+#game_info {
+    margin: auto;
+    padding-bottom: 20px;
+    /*color: red;*/
 }
 
